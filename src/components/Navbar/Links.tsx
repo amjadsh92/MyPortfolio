@@ -1,4 +1,7 @@
+"use client"
 import Link from "next/link"
+import { usePathname } from "next/navigation"
+
 
 
 interface linktypes{
@@ -31,7 +34,7 @@ interface linktypes{
     return(
         <div className="pl-28 inline-block flex ">
            {links.map((link) =>{ return (
-           <div key={link.title} className="text-slate-200 font-bold ml-28"> 
+           <div key={link.title} > 
           <NavLink item={link}  />
           </div>
            )})}
@@ -45,9 +48,10 @@ interface linktypes{
     
             
   const NavLink = ({item}:{item: linktypes} ) => {
+    const pathName = usePathname();
     
   
-    return <Link href={item.path} > {item.title} </Link>
+    return <Link href={item.path} className={ pathName === item.path ? "text-blue-600 font-bold ml-28": "text-slate-300 font-bold ml-28 hover:text-white"}  > {item.title} </Link>
   
   }
   
