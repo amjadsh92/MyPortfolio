@@ -6,11 +6,17 @@ import Avatar from "@/components/CV/Avatar";
 import Certificates from "@/components/CV/Certificates";
 import Languages from "@/components/CV/Languages";
 import Hobbies from "@/components/CV/Hobbies";
+import Links from "@/components/Navbar/Links";
 
 
 function MyCV() {
   return (
+    <>
+    <div className="ml-44 pt-16">
+      <Links />
+       </div>
     <div className="mt-32">
+      
       <MovingCVTitle />
       <Avatar />
       <WorkExperience />
@@ -20,6 +26,8 @@ function MyCV() {
       <Languages />
       <Hobbies />
     </div>
+
+    </> 
   );
 }
 

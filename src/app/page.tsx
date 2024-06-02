@@ -1,10 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
+import Links from "@/components/Navbar/Links";
 
 //bg-orange-600
 export default function Home() {
   return (
     <>
+    <div className="ml-44 pt-16">
+      <Links />
+       </div>
     <div className="flex">
       <Name />
       <Avatar />

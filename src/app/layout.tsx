@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Links from "@/components/Navbar/Links";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -15,12 +16,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  
   return (
     <html lang="en">
+      
       <body className = "bg-sky-950 w-screen h-screen">
-      <div className="ml-44 pt-16 ">
-      <Links />
-       </div>
+      
         {children}</body>
     </html>
   );
