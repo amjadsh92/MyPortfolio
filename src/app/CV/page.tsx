@@ -12,9 +12,9 @@ import Links from "@/components/Navbar/Links";
 function MyCV() {
   return (
     <>
-    <div className="ml-44 pt-16">
+    
       <Links />
-       </div>
+       
     <div className="mt-32">
       
       <MovingCVTitle />

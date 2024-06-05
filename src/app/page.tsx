@@ -6,9 +6,9 @@ import Links from "@/components/Navbar/Links";
 export default function Home() {
   return (
     <>
-    <div className="ml-44 pt-16">
+    
       <Links />
-       </div>
+       
     <div className="flex">
       <Name />
       <Avatar />
