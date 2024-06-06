@@ -1,7 +1,7 @@
 import WorkExperience from "@/components/CV/WorkExperience";
 import Education from "@/components/CV/Education";
 import ProfessionalSkills from "@/components/CV/ProfessionalSkills";
-import MovingCVTitle from "@/components/CV/MovingCVTitle";
+import MovingTitle from "@/components/CV/MovingTitle";
 import Avatar from "@/components/CV/Avatar";
 import Certificates from "@/components/CV/Certificates";
 import Languages from "@/components/CV/Languages";
@@ -17,7 +17,7 @@ function MyCV() {
        
     <div className="mt-32">
       
-      <MovingCVTitle />
+      <MovingTitle />
       <Avatar />
       <WorkExperience />
       <Education />

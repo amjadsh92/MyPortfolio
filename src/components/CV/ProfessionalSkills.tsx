@@ -1,25 +1,33 @@
-import  {javascript, HTML, css, Nextjs, Reactjs, Tailwindcss, Git, Linux, Python, MySQL, PrismaORM, Nodejs} from "@/Strings/CV/ProfessionalSkills"
- 
+import {
+  javascript,
+  HTML,
+  css,
+  Nextjs,
+  Reactjs,
+  Tailwindcss,
+  Git,
+  Linux,
+  Python,
+  MySQL,
+  PrismaORM,
+  Nodejs,
+  Typescript,
+  Expess,
+  Markdown
+} from "@/Strings/CV/ProfessionalSkills";
+import Header from "./Header";
 
 function ProfessionalSkills() {
   return (
     <>
-     
-        <div className="text-slate-800 ml-96 pt-8 font-extrabold text-2xl text-white font-mono">
-          {" "}
-          Professional experience{" "}
-        </div>
       
+      <Header> Professional experience </Header>  
+      
+
       <div className=" group ml-[350px] pt-8 flex">
         <ul className="pl-16 space-y-5 text-gray-500 list-disc marker:text-blue-600">
           <li className="group-hover:brightness-200">
-            <a
-              href={
-                javascript
-              }
-            >
-              Javascript
-            </a>
+            <a href={javascript}>Javascript</a>
           </li>
           <li className="group-hover:brightness-200">
             <a href={HTML}>HTML</a>
@@ -59,6 +67,17 @@ function ProfessionalSkills() {
           </li>
           <li className="group-hover:brightness-200">
             <a href={Nodejs}>Node.js</a>
+          </li>
+        </ul>
+        <ul className="pl-16 space-y-5 text-gray-500 list-disc marker:text-blue-600">
+          <li className="group-hover:brightness-200">
+            <a href={Typescript}>Typescript</a>
+          </li>
+          <li className="group-hover:brightness-200">
+            <a href={Expess}>Expressjs</a>
+          </li>
+          <li className="group-hover:brightness-200">
+            <a href={Markdown}>Markdown</a>
           </li>
         </ul>
       </div>

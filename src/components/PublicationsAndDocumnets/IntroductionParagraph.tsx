@@ -4,7 +4,7 @@ function IntroductionParagraph() {
         {" "}
         In this page you can find some of my documents and publications.
         Unfortunately, so far I have written only physics documents but I may
-        write documents relted to software development in the near future
+        write documents relted to software development in the near future.
       </h2>
     );
   }

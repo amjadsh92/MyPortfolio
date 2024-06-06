@@ -1,10 +1,11 @@
+import Header from "./Header";
+
 function Hobbies() {
   return (
     <div className="pb-16">
-      <div className="text-slate-800 font-extrabold text-2xl text-white font-mono ml-96 pt-8">
-        {" "}
-        Hobbies{" "}
-      </div>
+      
+       <Header>Hobbies</Header> 
+      
 
       <ul className="group pt-8 ml-[412px] space-y-5 text-gray-500 list-disc marker:text-blue-600">
         <li className="group-hover:brightness-200">

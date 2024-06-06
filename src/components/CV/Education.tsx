@@ -1,16 +1,16 @@
 import Section from "./Section";
 import Part from "./Part";
 import { Dirk, IUST, LU, dissertation } from "@/Strings/CV/Education";
+import Header from "./Header";
 
 function Education() {
   return (
     <>
-      <div className="ml-96 pt-8">
-        <p className="text-slate-800 font-extrabold text-2xl text-white font-mono">
-          {" "}
-          Education{" "}
-        </p>
-      </div>
+      
+        
+        <Header>Education</Header>  
+        
+      
       <Section>
         <Part status={"date"}>2023-present</Part>
 

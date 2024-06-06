@@ -12,7 +12,7 @@ const Links = () => {
     { title: "Profile", path: "/" },
     { title: "CV", path: "/CV" },
     { title: "Portfolio", path: "/Portfolio" },
-    { title: "Publications", path: "/PublicationsAndDocuments" },
+    { title: "Publications & Documents", path: "/PublicationsAndDocuments" },
   ];
 
   return (
