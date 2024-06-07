@@ -27,7 +27,7 @@ function Documents() {
         </Part>
         <Part status="content" href={""}>
           This document is a series of tutorials demystifying physical concepts.
-          THe first chapter is about Interference and Diffraction of Light. It
+          The first chapter is about Interference and Diffraction of Light. It
           is a last-year high school or first-year university level. The
           document is not complete yet. I stopped writing it more than two years
           ago, but I may complete it in any later period of time in the future.

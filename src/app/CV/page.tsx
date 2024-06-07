@@ -8,40 +8,23 @@ import Languages from "@/components/CV/Languages";
 import Hobbies from "@/components/CV/Hobbies";
 import Links from "@/components/Navbar/Links";
 
-
 function MyCV() {
   return (
     <>
-    
       <Links />
-       
-    <div className="mt-32">
-      
-      <MovingTitle />
-      <Avatar />
-      <WorkExperience />
-      <Education />
-      <ProfessionalSkills />
-      <Certificates />
-      <Languages />
-      <Hobbies />
-    </div>
 
-    </> 
+      <div className="mt-32">
+        <MovingTitle />
+        <Avatar />
+        <WorkExperience />
+        <Education />
+        <ProfessionalSkills />
+        <Certificates />
+        <Languages />
+        <Hobbies />
+      </div>
+    </>
   );
 }
 
 export default MyCV;
-
-
-
-
-
-
-
-
-
-
-
-
-
