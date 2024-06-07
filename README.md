@@ -21,4 +21,3 @@ to install all necessary modules.
 
 
 That's it. I hope you like the project!
-    
