@@ -6,11 +6,8 @@ import Header from "./Header";
 function Education() {
   return (
     <>
-      
-        
-        <Header>Education</Header>  
-        
-      
+      <Header>Education</Header>
+
       <Section>
         <Part status={"date"}>2023-present</Part>
 

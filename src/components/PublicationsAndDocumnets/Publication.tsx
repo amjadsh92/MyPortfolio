@@ -18,7 +18,7 @@ function Publication() {
         <span className="group-hover:text-cyan-950">
           European Physical journal B{" "}
         </span>
-        . You can check in the official website of ERJB or you can get its final
+        . You can check in the official website of EPJB or you can get its final
         draft by clicking the{" "}
         <span className="group-hover:text-cyan-950">See Draft</span> button.
       </Part>
