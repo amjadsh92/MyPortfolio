@@ -1,6 +1,6 @@
 function Board() {
   return (
-    <h2 className="font-mono text-lime-600 inline-block pl-64 pr-96 pt-8">
+    <h2 className="font-mono text-lime-600 inline-block  pt-8">
       {" "}
       Welcome to my website! My name is Amjad from Lebanon and I currently live
       in the Netherlands. I am a <span className="text-lime-400 font-extrabold">web-developer</span> who recently shifted his career

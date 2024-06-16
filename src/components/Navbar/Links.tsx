@@ -16,7 +16,7 @@ const Links = () => {
   ];
 
   return (
-    <div className="ml-[288px] pt-16 inline-block flex ">
+    <div className=" xs:ml-[1%] sm:ml-[10%] md:ml-[0%] max-w-full pt-16 inline-block flex">
       {links.map((link) => {
         return (
           <div key={link.title}>
@@ -29,15 +29,15 @@ const Links = () => {
 };
 
 const NavLink = ({ item }: { item: linktypes }) => {
-  const pathName = usePathname();
+  const pathName : string = usePathname();
 
   return (
     <Link
       href={item.path}
       className={
         pathName === item.path
-          ? "text-blue-600 font-bold ml-28"
-          : "text-slate-300 font-bold ml-28 hover:text-white"
+          ? "text-blue-600 font-bold  3xs:text-[10px] 3xs:ml-2 2xs:ml-2 2xs:text-[13px] xs:ml-8 xs:text-[15px] sm:ml-16 sm:text-base md:ml-20"
+          : "text-slate-300 font-bold 3xs:text-[10px] 3xs:ml-2 2xs:ml-2 2xs:text-[13px] xs:ml-8 xs:text-[15px] sm:ml-16 sm:text-base md:ml-20 hover:text-white"
       }
     >
       {" "}

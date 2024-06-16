@@ -2,9 +2,9 @@ import Image from "next/image";
 
 function Avatar() {
   return (
-    <div className="pl-24 pt-36">
+    <div className="absolute right-0 pt-36">
       <Image
-        className=" w-[165px] h-[165px] rounded-full"
+        className=" sm:w-[145px] sm:h-[145px] md:w-[165px] md:h-[165px] rounded-full"
         src="/HomeAvater.jpeg"
         width={300}
         height={300}

@@ -12,7 +12,6 @@ function MyCV() {
   return (
     <>
       <Links />
-
       <div className="mt-32">
         <MovingTitle />
         <Avatar />
