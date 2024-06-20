@@ -6,20 +6,20 @@ import Socialmedia from "@/components/Home/Socialmedia";
 
 export default function Home() {
   return (
-    <div className="container mx-auto ">
-      <div className="relative block md:max-w-[70%] md:ml-[0%]">
-      <Links />
-      
-      <div className=" xs:ml-[1%] sm:ml-[10%] md:ml-[0%] md:max-w-[70%] flex">
-        <Name />
-        <Avatar />
-      </div>
-      <div className="xs:ml-[1%] sm:ml-[10%] md:ml-[8%] md:max-w-[70%]">
-        <Board />
-      </div>
-      </div>
-      <div className="pt-16 ml-72">
-        <Socialmedia />
+    <div>
+      <div className="block max-w-full w-3/4 2xs:w-1/2 mx-auto">
+        <Links />
+
+        <div className="relative flex flex-col 2xs:flex-row">
+          <Name />
+          <Avatar />
+        </div>
+        <div>
+          <Board />
+        </div>
+        <div className="ml-[40%]">
+          <Socialmedia />
+        </div>
       </div>
     </div>
   );

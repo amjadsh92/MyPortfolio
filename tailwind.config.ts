@@ -8,14 +8,17 @@ const config: Config = {
   ],
   theme: {
     screens: {
-      '3xs': '320px',
+      '4xs': '320px',
       // => @media (min-width: 490px) { ... }
-      '2xs': '380px',
+      '3xs': '450px',
+      // => @media (min-width: 490px) { ... }
+     
+      '2xs': '640px',
       // => @media (min-width: 490px) { ... }
 
-      'xs': '500px',
+      'xs': '780px',
       // => @media (min-width: 490px) { ... }
-      'sm': '800px',
+      'sm': '880px',
       // => @media (min-width: 640px) { ... }
 
       'md': '1024px',
