@@ -11,7 +11,7 @@ function Education() {
       <Section>
         <Part status={"date"}>2023-present</Part>
 
-        <div className="py-4 pr-4">
+        <div className="py-[2%] pr-[2%]">
           <Part status={"title"}>Self learning sofware development</Part>
           <Part status={"content"}>
             With the guidance of the senior web-developer (
@@ -30,7 +30,7 @@ function Education() {
       <Section>
         <Part status={"date"}>2017-2020</Part>
 
-        <div className="py-4 pr-4">
+        <div className="py-[2%] pr-[2%]">
           <Part status={"title"}>
             <a href={IUST}>
               Iran University of Science and Technology, Tehran, Iran
@@ -54,7 +54,7 @@ function Education() {
       <Section>
         <Part status={"date"}>2014-2015</Part>
 
-        <div className="py-4 pr-4">
+        <div className="py-[2%] pr-[2%]">
           <Part status={"title"}>
             <a href={LU}>Lebanese University, Beirut, Lebanon</a>
           </Part>
@@ -67,7 +67,7 @@ function Education() {
       <Section>
         <Part status={"date"}>2010-2013</Part>
 
-        <div className="py-4 pr-4">
+        <div className="py-[2%] pr-[2%]">
           <Part status={"title"}>
             <a href={LU}>Lebanese University, Nabatieh, Lebanon</a>
           </Part>

@@ -33,8 +33,16 @@ const config: Config = {
       '2xl': '1700px',
       // => @media (min-width: 1536px) { ... }
     },
+
+    listStyleType: {
+      none: 'none',
+      disc: 'disc',
+      dash: '-_',
+      decimal: 'decimal',
+      square: 'square',
+      roman: 'upper-roman',
    
-      
+    }, 
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

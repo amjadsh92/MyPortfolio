@@ -10,7 +10,7 @@ function WorkExperience() {
       <Section>
         <Part status={"date"}>2022-2023</Part>
 
-        <div className="py-4 pr-4">
+        <div className="py-[2%] pr-[2%]">
           <Part status={"title"}>
             <a href={raboudUniversity}>
               Radboud University, Department of Theoretical Chemistry, Nijmegen,
