@@ -6,14 +6,16 @@ import Projects from "@/components/Portfolio/Projects";
 
 function Portfolio() {
   return (
-    <>
+    <div className="max-w-full">
+      <div className="block max-w-full w-3/4 2xs:w-1/2 mx-auto">
       <Links />
-      <MovingTitle />
+      <div className="mt-[16%]">
       <IntroductionParagraph />
       <Projects />
       <Avatar />
-
-    </>
+      </div>
+      </div>
+    </div>
   );
 }
 

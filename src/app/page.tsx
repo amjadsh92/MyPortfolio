@@ -4,21 +4,23 @@ import Avatar from "@/components/Home/Avatar";
 import Board from "@/components/Home/Board";
 import Socialmedia from "@/components/Home/Socialmedia";
 
-
 export default function Home() {
   return (
-    <>
-      <Links />
-      <div className="flex">
-        <Name />
-        <Avatar />
+    <div>
+      <div className="block max-w-full w-3/4 2xs:w-1/2 mx-auto">
+        <Links />
+
+        <div className="relative flex flex-col 2xs:flex-row">
+          <Name />
+          <Avatar />
+        </div>
+        <div>
+          <Board />
+        </div>
+        <div className="ml-[40%]">
+          <Socialmedia />
+        </div>
       </div>
-      <div className="ml-32 mr-32">
-        <Board />
-      </div>
-      <div className="pt-16 ml-72">
-        <Socialmedia />
-      </div>
-    </>
+    </div>
   );
 }

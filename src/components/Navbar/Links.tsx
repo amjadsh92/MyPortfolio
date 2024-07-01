@@ -16,7 +16,7 @@ const Links = () => {
   ];
 
   return (
-    <div className="ml-[288px] pt-16 inline-block flex ">
+    <div className="inline-block justify-center pt-16 items-center gap-y-[16px] grid grid-cols-2 2xs:justify-between  2xs:pl-[0px]  2xs:pr-[0px] 2xs:flex ">
       {links.map((link) => {
         return (
           <div key={link.title}>
@@ -29,15 +29,15 @@ const Links = () => {
 };
 
 const NavLink = ({ item }: { item: linktypes }) => {
-  const pathName = usePathname();
+  const pathName : string = usePathname();
 
   return (
     <Link
       href={item.path}
       className={
         pathName === item.path
-          ? "text-blue-600 font-bold ml-28"
-          : "text-slate-300 font-bold ml-28 hover:text-white"
+          ? "text-blue-600 font-bold text-[14px]  2xs:text-[13px]  xs:text-[14px]  sm:text-[15px] md:text-base"
+          : "text-slate-300 font-bold hover:text-white text-[14px] 2xs:text-[13px]  xs:text-[14px]  sm:text-[15px] md:text-base "
       }
     >
       {" "}

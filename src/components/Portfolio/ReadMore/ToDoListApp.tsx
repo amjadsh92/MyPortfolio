@@ -3,11 +3,11 @@ import Image from "next/image";
 function ToDoListApp() {
   return (
     <>
-      <p className="font-sans font-semibold text-black text-2xl mt-8">
+      <p className="font-sans font-semibold text-black text-base 3xs:text-lg 2xs:text-base xs:text-lg sm:text-xl md:text-2xl mt-8">
         {" "}
         To-Do-List App
       </p>
-      <p className="font-mono font-semibold text-black text-xl mt-8">
+      <p className="font-mono font-semibold text-black text-sm 3xs:text-base 2xs:text-sm xs:text-base sm:text-lg md:text-xl mt-8">
         {" "}
         It is a simple application, where we list our daily tasks, so we can
         remeber them and manage the day more efficiently.
@@ -29,7 +29,7 @@ function ToDoPhoto() {
   return (
     <>
       <div className="mt-24">
-        <p className="font-mono font-semibold text-black text-xl mb-4">
+        <p className="font-mono font-semibold text-black text-sm 3xs:text-base 2xs:text-sm xs:text-base sm:text-lg md:text-xl mb-4">
           The To-do block: Here you submit your task with showing some details
           pertaining it in the Description section
         </p>
@@ -48,7 +48,7 @@ function ToDoItemsPhoto() {
   return (
     <>
       <div className="mt-24">
-        <p className="font-mono font-semibold text-black text-xl mb-4">
+        <p className="font-mono font-semibold text-black text-sm 3xs:text-base 2xs:text-sm xs:text-base sm:text-lg md:text-xl mb-4">
           The To-do-items block: All the tasks that you have submitted in the
           to-do block will be shown here
         </p>
@@ -67,7 +67,7 @@ function DetailsPhoto() {
   return (
     <>
       <div className="mt-24">
-        <p className="font-mono font-semibold text-black text-xl mb-4">
+        <p className="font-mono font-semibold text-black text-sm 3xs:text-base 2xs:text-sm xs:text-base sm:text-lg md:text-xl mb-4">
           The Details block: when you press the show button for a certain task,
           the details the you have written in the desciption section in the
           to-do block will appear in the Details-block with the name of the task
