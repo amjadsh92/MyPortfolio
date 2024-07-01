@@ -1,7 +1,7 @@
-function TitleAndButtons() {
+function Buttons() {
   return (
     <div>
-   <div className="pt-4 ml-[20%] 3xs:ml-[25%] 2xs:ml-[0%] 2xs:pt-24 2xs:fixed">
+      <div className="pt-4 ml-[20%] 3xs:ml-[25%] 2xs:ml-[0%] 2xs:pt-24 2xs:fixed">
         <a href="/Portfolio" className="pt-24 ml-4 ">
           <button
             type="button"
@@ -22,9 +22,8 @@ function TitleAndButtons() {
           </button>
         </a>
       </div>
-      
-      </div>
+    </div>
   );
 }
 
-export default TitleAndButtons;
+export default Buttons;

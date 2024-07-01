@@ -4,6 +4,7 @@ function Socialmedia() {
   return (
     <div className="mt-[20%] pb-[20%] flex">
       <a
+        target="_blank"
         href="https://www.linkedin.com/in/amjad-sharafeddine-3968b911b/"
         className=" hover:scale-110"
       >
@@ -17,6 +18,7 @@ function Socialmedia() {
       </a>
 
       <a
+        target="_blank"
         href="https://github.com/amjadsh92"
         className=" hover:scale-110 ml-[6%] mt-[-4px]"
       >

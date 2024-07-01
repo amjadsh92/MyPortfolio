@@ -26,7 +26,7 @@ function Part({
 
     case "button":
       return (
-        <a href={href}>
+        <a href={href} target="_blank">
           <button className="hover:scale-110 ml-2 mb-4 mt-4 px-1 py-[1px] bg-lime-900 text-white text-[12px] 3xs:text-[14px] 2xs:text-[12px] xs:text-[14px] sm:text-[14px] md:text-base rounded-full">
             {children}
           </button>

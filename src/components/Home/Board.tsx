@@ -5,9 +5,7 @@ function Board() {
       Welcome to my website! My name is Amjad from Lebanon and I currently live
       in the Netherlands. I am a{" "}
       <span className="text-lime-400 font-extrabold">web-developer</span> who
-      recently shifted his career from physics into software development.I
-      successfully managed to teach myself the basics of back-end and front-end
-      developemnt.In the meantime, I am more intersted in the front-end part and
+      recently shifted his career from physics into software development.So far, I have aquired foundational knowledge of back-end and front-end development.In the meantime, I am more intersted in the front-end part and
       going more deep into it using{" "}
       <span className="text-lime-400 font-extrabold">
         ReactJS, Next.js, Typescript{" "}
