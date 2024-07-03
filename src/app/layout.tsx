@@ -6,7 +6,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Create Next App",
+  title: "MyProfile",
   viewport: "width=device-width, initial-scale=1.0",
 };
 
